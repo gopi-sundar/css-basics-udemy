@@ -17,3 +17,25 @@ html {
     max-width: 1140px;
     margin:0 auto;
 }
+
+header {
+    /* To darken the background image, use linear-gradient */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    /* To make a div take the entire page height */
+    height:100vh;
+}
+
+.hero-text-box{
+     /* the below styles are used to absolutely responsively center the div on the screen */
+    position: absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    margin:0;
+}
