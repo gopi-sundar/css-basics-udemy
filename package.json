@@ -1,0 +1,22 @@
+{
+  "name": "css-basics-udemy",
+  "version": "1.0.0",
+  "description": "grid.css taken from http://www.responsivegridsystem.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopi-sundar/css-basics-udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopi-sundar/css-basics-udemy/issues"
+  },
+  "homepage": "https://github.com/gopi-sundar/css-basics-udemy#readme",
+  "dependencies": {
+    "waypoints": "^4.0.1"
+  }
+}
